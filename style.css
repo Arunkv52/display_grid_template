@@ -2,32 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
-.wrapper {
+.wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-template-rows: 200px 300px 200px 300px;  //this value taken rows values
 }
-
-.a {
+.grid-1, .grid-2, .grid-3, .grid-4 {
+    padding: 20px;
     background-color: red;
-    grid-column-start: 1;
-}
-
-.b {
-    background-color: rgb(9, 82, 37);
-}
-
-.c {
-    background-color: rgb(184, 71, 222);
-}
-
-.d {
-    background-color: rgb(26, 185, 164);
-}
-
-.e {
-    background-color: rgb(165, 188, 16);
+    margin-bottom: 10px;
 }
